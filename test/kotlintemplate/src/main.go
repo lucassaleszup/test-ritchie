@@ -12,7 +12,7 @@ import (
 func main() {
 	token := os.Getenv("TOKEN")
 
-	fmt.Println("Stream started every 1s a msg is created.")
+	fmt.Println("Stream started every 2s a msg is created.")
 
 	formula.Formula{
 		Token: token,
